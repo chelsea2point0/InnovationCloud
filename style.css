@@ -1,0 +1,166 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 940px; 
+	padding: 0 10px; 
+}
+
+/* Header */
+.header {
+  background-image:  url("http://d.fastcompany.net/multisite_files/fastcompany/imagecache/1280/poster/2013/06/3012824-poster-1920-3-steps-to-a-more-open-innovative-mind.jpg");
+  height: 600px;
+  text-align: center;
+  color: white;
+}
+
+.header .container {
+	position: relative;
+	top: 200px;
+}
+
+.header h1 {
+	font-size: 80px;
+	line-height: 100px; 
+	margin-top: 0;
+	margin-bottom: 80px; 
+  text-transform: uppercase;  
+}
+
+@media (min-width:850px) {
+	.header h1 {
+		font-size: 120px;
+	}
+}
+
+.header p {
+	font-weight: 500;
+	letter-spacing: 8px;
+	margin-bottom: 40px;
+	margin-top: 0;   
+  text-transform: uppercase;
+}
+
+.btn {
+  color: white;
+  background-color: black;
+  border: 1px solid #117bff;
+  font-weight: 300;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 40px;
+  padding-left: 40px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.btn:hover {
+	background: #117bff;
+	cursor: pointer; 
+	transition: background .5s;  
+}
+
+
+/* Nav */
+.nav {
+  background-color: black;
+  display: block;
+  height: 80px;
+  width: 100%;
+}
+
+.nav ul {
+	list-style: none;
+	margin: 0 auto; 
+	padding: 20px 0;
+	text-align: center; 
+}
+
+.nav li {
+  display: inline-block;
+  color: white;
+  float: left;
+  padding: 10px;
+  text-align: middle;
+}
+
+.nav li:hover {
+  background: #117bff;
+  cursor: pointer; 
+  transition: background .5s;  
+}
+
+/* Main */
+.main .container {
+	margin: 80px auto;
+}
+
+.main img {
+  float: left;
+  margin: 50px 80px 50px 0;
+}
+
+/* Jumbotron */
+.jumbotron {
+  background-image: url("https://www.agtinternational.com/wp-content/uploads/2013/11/City-solution.jpg");
+  background-size: cover;
+  color: white;
+	height: 600px;   
+  margin-right: 50px;
+	text-align: right;
+  width: 100%;
+}
+
+.jumbotron .container {
+  color: black;
+  font-weight: bold;
+  margin-right: 100px;
+	position: relative;
+	top: 70px;  
+}
+
+.jumbotron .btn {
+  background-color: black;
+  color: white;
+}
+
+/* Footer */
+.footer { 
+  font-size: 14px;
+  background-color: black;
+  width: 100%;
+}
+
+.footer .container {
+  background-color: black;
+  color: white;
+  display: block; 
+  height: 30px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+/* Media Queries */
+@media (max-width: 500px) {
+  .header h1 {
+    font-size: 50px;
+    line-height: 64px;
+  }
+
+  .main, .jumbotron {
+    padding: 0 30px;
+  }
+
+  .main img {
+    width: 100%;
+  }
+}
