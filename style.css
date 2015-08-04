@@ -96,6 +96,7 @@ body {
 .nav-active {
   background: #117bff;
   cursor: pointer;  
+  transition: background .5s;
 }
 
 /* Main */
@@ -129,11 +130,6 @@ body {
   margin-right: 100px;
 	position: relative;
 	top: 70px;  
-}
-
-.jumbotron .btn {
-  background-color: black;
-  color: white;
 }
 
 /* Footer */

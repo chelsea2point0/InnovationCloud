@@ -2,10 +2,10 @@ $(document).ready(function() {
 
 	$('.nav li').hover(
 		function() {
-			$('.nav li').addClass('nav-active');
+			$(this).addClass('nav-active');
 		},
 		function() {
-			$('.nav li').removeClass('nav-active');
+			$(this).removeClass('nav-active');
 		}
 		);
 });
